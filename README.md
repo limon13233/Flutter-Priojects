@@ -1,30 +1,16 @@
-ПРАКТИЧЕСКАЯ РАБОТА №1
+# prkt_2
 
-Создание вёрстки по предоставленным макетам
+A new Flutter project.
 
-Цель работы: создать макеты, которые почти не будут отличаться от данных по заданию с помощью знаний, полученных на предыдущих парах.
+## Getting Started
 
-Ход работы:
-Нам предоставили следующие пять вёрсток приложений:
+This project is a starting point for a Flutter application.
 
-![image](https://user-images.githubusercontent.com/91593740/192525001-11b0f915-6586-4c2d-8878-86e12c4f3d93.png)
+A few resources to get you started if this is your first Flutter project:
 
- 
-Рисунок 1 – Предоставленные макеты
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Для первого макета были использованы такие виджеты как: Container, Scaffold, Column, Row, Image и др. Также контейнеры, в которых находились кнопки были закруглены с помощью BoxDecorations, а также тени.
-Полученный макет:
- 
- ![image](https://user-images.githubusercontent.com/91593740/192525110-63d05981-7d54-4b67-b357-6d827f8f4a84.png)
-
-Рисунок 2 – Первый сделанный макет
-
-Для второго макета использовались такие же виджеты.
-Полученный макет:
- 
- ![image](https://user-images.githubusercontent.com/91593740/192525135-881a0a99-5faf-439c-9db9-9cf9fdee3b5e.png)
-
-Рисунок 3 – Второй сделанный макет
-
-Вывод: в данной практической работы были укреплены знания о виджетах, полученные на предыдущих парах и получены практические навыки в создании вёрсток с помощью Flutter.
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
