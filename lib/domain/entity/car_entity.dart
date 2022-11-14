@@ -17,5 +17,3 @@ class CarEntity {
       required this.car_color_id,
       required this.car_KPPtype_id});
 }
-
-//enum CarEnum{CarBMW, CarMercedez, CarMitsubishi, CarSubaru}

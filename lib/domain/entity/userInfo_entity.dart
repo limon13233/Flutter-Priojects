@@ -1,4 +1,4 @@
-class UserInfoEntity{
+class UserInfoEntity {
   late int id;
   final String surname;
   final String name;
@@ -6,7 +6,12 @@ class UserInfoEntity{
   final String email;
   final int id_user;
 
-  UserInfoEntity({required this.surname, required this.name, required this.middlename, required this.email, required this.id_user});
+  UserInfoEntity(
+      {required this.surname,
+      required this.name,
+      required this.middlename,
+      required this.email,
+      required this.id_user});
 }
 
-// enum UsersInfoEnum{userInfo_user}
+enum UsersInfoEnum { userInfo_user }
