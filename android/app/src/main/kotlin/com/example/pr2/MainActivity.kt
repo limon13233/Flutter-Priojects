@@ -1,4 +1,4 @@
-package com.example.prkt_2
+package com.example.pr2
 
 import io.flutter.embedding.android.FlutterActivity
 
