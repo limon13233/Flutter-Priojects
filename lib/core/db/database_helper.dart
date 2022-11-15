@@ -62,42 +62,40 @@ class DataBaseHelper {
       db.insert(DataBaseRequest.tableRole, Role(role: "Пользователь").toMap());
 
       db.insert(DataBaseRequest.tableUser,
-          User(login: "thvele", password: "123", id_role: 1).toMap());
+          User(login: "Admin", password: "Admin", id_role: 1).toMap());
       db.insert(DataBaseRequest.tableUser,
           User(login: "user", password: "user", id_role: 2).toMap());
 
       db.insert(
           DataBaseRequest.tableUserInfo,
           UserInfo(
-                  surname: 'Иванов',
-                  name: 'Иван',
-                  middlename: 'Иванович',
-                  email: 'example@ex.com',
+                  surname: 'Петров',
+                  name: 'Петр',
+                  middlename: 'Петрович',
+                  email: 'mail@yandex.ru',
                   id_user: 1)
               .toMap());
       db.insert(
           DataBaseRequest.tableUserInfo,
           UserInfo(
-                  surname: 'Слободянюк',
-                  name: 'Игорь',
-                  middlename: 'Сергеевич',
-                  email: 'thvele@kist.com',
+                  surname: 'Иванов',
+                  name: 'Иван',
+                  middlename: 'Иванович',
+                  email: 'ivan@mail.ru',
                   id_user: 2)
               .toMap());
 
       db.insert(DataBaseRequest.tableMark, Mark(mark_name: 'BMW').toMap());
+      db.insert(DataBaseRequest.tableMark, Mark(mark_name: 'Mercedes').toMap());
+
       db.insert(
-          DataBaseRequest.tableMark, Mark(mark_name: 'Mitsubishi').toMap());
+          DataBaseRequest.tableEngine, Engine(engine_type: 'Дизель').toMap());
+      db.insert(DataBaseRequest.tableEngine, Engine(engine_type: '95').toMap());
 
-      db.insert(DataBaseRequest.tableEngine,
-          Engine(engine_type: 'Бензиновый').toMap());
-      db.insert(DataBaseRequest.tableEngine,
-          Engine(engine_type: 'Электрический').toMap());
-
-      db.insert(DataBaseRequest.tableCarColor,
-          CarColor(car_color: 'Бронзово-чёрный').toMap());
-      db.insert(DataBaseRequest.tableCarColor,
-          CarColor(car_color: 'Красный').toMap());
+      db.insert(
+          DataBaseRequest.tableCarColor, CarColor(car_color: 'Черный').toMap());
+      db.insert(
+          DataBaseRequest.tableCarColor, CarColor(car_color: 'Белый').toMap());
 
       db.insert(
           DataBaseRequest.tableKPPType, KPPType(kpp_type: 'Автомат').toMap());
@@ -107,10 +105,10 @@ class DataBaseHelper {
       db.insert(
           DataBaseRequest.tableCar,
           Car(
-            car_description: 'Mitsubishi 3000GT',
-            car_cost: 3000000.00,
-            car_year: '2000',
-            car_mark_id: 2,
+            car_description: 'BMW X5',
+            car_cost: 5000000.00,
+            car_year: '2010',
+            car_mark_id: 1,
             car_engine_id: 1,
             car_color_id: 2,
             car_KPPtype_id: 1,
@@ -118,10 +116,10 @@ class DataBaseHelper {
       db.insert(
           DataBaseRequest.tableCar,
           Car(
-                  car_description: 'BMW i8',
+                  car_description: 'Mercedes GLS',
                   car_cost: 90000000.00,
-                  car_year: '2025',
-                  car_mark_id: 1,
+                  car_year: '2010',
+                  car_mark_id: 2,
                   car_engine_id: 2,
                   car_color_id: 1,
                   car_KPPtype_id: 1)
